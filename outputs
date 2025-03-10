@@ -1,0 +1,38 @@
+TTPD:                                                                                                                                                                   
+  Mean Accuracy: 67.47%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 0.28%                                                                                                                        
+LRProbe:                                                                                                                                                                
+  Mean Accuracy: 65.09%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 1.18%                                                                                                                        
+CCSProbe:                                                                                                                                                               
+  Mean Accuracy: 60.26%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 6.55%                                                                                                                        
+MMProbe:                                                                                                                                                                
+  Mean Accuracy: 67.01%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 0.29%
+
+TTPD:
+  Mean Accuracy: 86.07%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 0.19%                                                                                                                        
+LRProbe:                                                                                                                                                                
+  Mean Accuracy: 89.45%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 1.44%                                                                                                                        
+CCSProbe:                                                                                                                                                               
+  Mean Accuracy: 69.01%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 13.89%                                                                                                                       
+MMProbe:                                                                                                                                                                
+  Mean Accuracy: 81.10%                                                                                                                                                 
+  Standard Deviation of the mean accuracy: 2.09%
+
+TTPD:
+  Mean Accuracy: 70.88%                                                                                                                                                 
+  Standard Deviation: 3.11%                                                                                                                                             
+LRProbe:
+  Mean Accuracy: 65.08%
+  Standard Deviation: 6.96%
+CCSProbe:
+  Mean Accuracy: 64.33%
+  Standard Deviation: 10.74%
+MMProbe:
+  Mean Accuracy: 75.31%
+  Standard Deviation: 2.63%

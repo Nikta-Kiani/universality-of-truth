@@ -1,0 +1,31 @@
+# activations
+project/acts/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large model files and locks
+models/.locks/
+models/r1_8b_chat_hf/
+models/llama3_8b_chat_hf/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# Ignore shell script outputs
+*.sh
+
+# Ignore environment files
+.env
+venv/
+env/
+
+# Ignore checkpoints and temporary outputs
+outputs/
+
