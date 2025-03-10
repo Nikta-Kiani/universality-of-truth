@@ -26,6 +26,4 @@ models/llama3_8b_chat_hf/
 venv/
 env/
 
-# Ignore checkpoints and temporary outputs
-outputs/
 

@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
-
 import torch
 from utils import DataManager, dataset_sizes, collect_training_data, compute_statistics, compute_average_accuracies
 import matplotlib.pyplot as plt

@@ -1,0 +1,51 @@
+TTPD:
+  Mean Accuracy: 91.15%
+  Standard Deviation of the mean accuracy: 0.38%
+LRProbe:
+  Mean Accuracy: 88.82%
+  Standard Deviation of the mean accuracy: 1.79%
+CCSProbe:
+  Mean Accuracy: 75.04%
+  Standard Deviation of the mean accuracy: 9.15%
+MMProbe:
+  Mean Accuracy: 87.06%
+  Standard Deviation of the mean accuracy: 0.91%
+
+TTPD:
+  Mean Accuracy: 66.82%
+  Standard Deviation of the mean accuracy: 0.25%
+LRProbe:
+  Mean Accuracy: 64.14%
+  Standard Deviation of the mean accuracy: 2.16%
+CCSProbe:
+  Mean Accuracy: 62.67%
+  Standard Deviation of the mean accuracy: 6.60%
+MMProbe:
+  Mean Accuracy: 65.88%
+  Standard Deviation of the mean accuracy: 0.26%
+
+TTPD:
+  Mean Accuracy: 81.16%
+  Standard Deviation of the mean accuracy: 0.58%
+LRProbe:
+  Mean Accuracy: 81.31%
+  Standard Deviation of the mean accuracy: 1.86%
+CCSProbe:
+  Mean Accuracy: 63.52%
+  Standard Deviation of the mean accuracy: 13.96%
+MMProbe:
+  Mean Accuracy: 76.43%
+  Standard Deviation of the mean accuracy: 2.00%
+
+TTPD:
+  Mean Accuracy: 81.23%
+  Standard Deviation: 2.80%
+LRProbe:
+  Mean Accuracy: 66.10%
+  Standard Deviation: 8.54%
+CCSProbe:
+  Mean Accuracy: 67.29%
+  Standard Deviation: 12.66%
+MMProbe:
+  Mean Accuracy: 88.27%
+  Standard Deviation: 2.49%

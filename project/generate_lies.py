@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 import os
@@ -14,9 +11,8 @@ from loguru import logger
 from gc import collect
 
 
-
 # hyperparameters
-model_family = 'Llama3' # options are 'Llama3', 'Llama2' or 'Gemma'
+model_family = 'Llama3'
 model_size = '8B'
 model_type = 'chat' # options are 'chat' or 'base'
 
