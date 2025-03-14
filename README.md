@@ -46,15 +46,25 @@ python generate_acts.py --model_family r1 --model_size 8B --model_type chat --la
 ### Repository Structure
 ### Main Scripts
 - generate_acts.py: For generating activations for both models
-
+  
+- generate_lies.py:Generates LLM responses (lies) for real-world scenarios
+  
+- lie_detection.py:Uses three classifiers (TTPD, LR, and CCS) to classify statements as true or false based on LLM activations, evaluating 
+  their generalization to unseen topics, statement types, and real-world lies. Requires dataset activations for execution.
+- truth_directions.py: This script generates figures of the paper, covering topics from learning truth directions to analyzing the 
+  dimensionality of the truth subspace. To run this script, you must first generate the necessary activations.
 - utils.py: Helper functions for loading activations and data processing
-
 - probes.py: Various classifiers (TTPD, LR, CCS, MM) for true/false statement detection
 
 - config.ini: Configuration file for model paths
 
-- truth_directions.py: Reproduces the core TTPD analysis, projections onto the truth subspace, and layer-wise analysis for both models
-
+- truth_directions.py: Reproduces the core TTPD analysis, projections onto the truth subspace, and layer-wise analysis for both models. You need to generate the following activations to run this notebook
+```bash
+#Llama3
+python generate_acts.py --model_family Llama3 --model_size 8B --model_type chat --layers 12 --datasets all --device cuda -l info
+#DeepSeek-R1
+python generate_acts.py --model_family r1 --model_size 8B --model_type chat --layers 12 --datasets all --device cuda -l info
+```
 ### Output Folders
 - outputs/llama3/: Contains results and visualizations for LLaMA3
 
